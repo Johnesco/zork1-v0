@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zork I &mdash; v0: Original ZIL &mdash; IF Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ifhub:title" content="Zork I (v0 — Original ZIL)">
+<meta name="ifhub:meta" content="Infocom (Original ZIL Source)">
+<meta name="ifhub:description" content="The unmodified Infocom ZIL source code for Zork I, exactly as released by Activision under the MIT License. Browse the original source with annotations and play the ZIL-compiled game in-browser.">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  height: 100%;
+  background: #0a0a0a;
+  color: #d4c5a9;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  min-height: 100%;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+  line-height: 1.7;
+}
+
+.breadcrumb {
+  font-size: 0.85em;
+  color: #887755;
+  margin-bottom: 24px;
+}
+
+.breadcrumb a {
+  color: #887755;
+  border-bottom-color: #3a3020;
+}
+
+.breadcrumb a:hover {
+  color: #e8d090;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #e8d8b0;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #aa9966;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #c4b48a;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2a2418;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #e8d090;
+  text-decoration: none;
+  border-bottom: 1px solid #5a4a30;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+a:hover {
+  color: #ffe8a0;
+  border-bottom-color: #aa9966;
+}
+
+ul {
+  margin: 8px 0 16px 20px;
+  color: #b0a080;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.btn-row a {
+  display: inline-block;
+  padding: 10px 28px;
+  background: #2a2010;
+  border: 1px solid #5a4a30;
+  border-radius: 4px;
+  color: #e8d090;
+  font-family: inherit;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.btn-row a:hover {
+  background: #3a3018;
+  color: #ffe8a0;
+  border-color: #aa9966;
+}
+
+.version-nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.version-nav a, .version-nav span {
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid #2a2418;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.version-nav a {
+  color: #b0a080;
+  border-bottom: none;
+}
+
+.version-nav a:hover {
+  background: #2a2010;
+  color: #e8d090;
+  border-color: #5a4a30;
+}
+
+.version-nav .current {
+  background: #2a2010;
+  color: #e8d090;
+  border-color: #5a4a30;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #1e1a14;
+  font-size: 0.85em;
+  color: #665a40;
+}
+
+footer a {
+  color: #887755;
+  border-bottom-color: #3a3020;
+}
+</style>
+</head>
+<body>
+
+<nav class="breadcrumb"><a href="/ifhub/">IF Hub</a> &rsaquo; <a href="/zork1/">Zork I</a> &rsaquo; v0 &mdash; Original ZIL</nav>
+
+<h1>Zork I &mdash; v0: Original ZIL</h1>
+<p class="subtitle">The Unmodified Infocom Source</p>
+
+<div class="btn-row">
+  <a href="play.html">Play Online</a>
+  <a href="/ifhub/app.html?game=zork1-v0">Play in IF Hub</a>
+  <a href="source.html">Browse Source</a>
+</div>
+
+<p>This is the original Infocom <a href="https://en.wikipedia.org/wiki/Zork_Implementation_Language">ZIL</a> (Zork Implementation Language) source code for Zork I: The Great Underground Empire, exactly as <a href="https://github.com/historicalsource/zork1">released by Activision</a> under the MIT License.</p>
+
+<p>The 10 ZIL source files (~12,000 lines) are presented with navigable definitions and an annotation toggle explaining the game engine and puzzle mechanics. The playable game is compiled from the original ZIL using <a href="https://foss.heptapod.net/zilf/zilf">ZILF</a>, producing a Z-machine story file (.z3) that runs in-browser via <a href="https://github.com/curiousdannii/parchment">Parchment</a>&rsquo;s JavaScript Z-machine interpreter.</p>
+
+<h2>What Makes v0 Special</h2>
+
+<ul>
+  <li><strong>The baseline</strong> &mdash; every other version is measured against this. If it&rsquo;s different, v0 has the original behavior.</li>
+  <li><strong>All original bugs preserved</strong> &mdash; the &ldquo;Raft of Holding,&rdquo; phantom combat, locked-open grate, and every other quirk from the commercial release are exactly as they were.</li>
+  <li><strong>Infocom&rsquo;s engineering on display</strong> &mdash; the ZIL source reveals how Blank, Lebling, Daniels, and Anderson built an entire world within the tight constraints of late-1970s hardware.</li>
+  <li><strong>Z-machine architecture</strong> &mdash; runs on the same virtual machine specification Infocom designed for portability across dozens of platforms.</li>
+</ul>
+
+<h2>All Versions</h2>
+
+<div class="version-nav">
+  <span class="current">v0 &mdash; Original ZIL</span>
+  <a href="/zork1-v1/">v1 &mdash; The Port</a>
+  <a href="/zork1-v2/">v2 &mdash; Bug Fixes</a>
+  <a href="/zork1-v3/">v3 &mdash; Multimedia</a>
+  <a href="/zork1/">Current</a>
+</div>
+
+<footer>
+<p><em>Zork I: The Great Underground Empire</em> was written by Marc Blank, Dave Lebling, Bruce Daniels, and Tim Anderson, and published by <a href="https://en.wikipedia.org/wiki/Infocom">Infocom</a> (1980). The ZIL source was released under the MIT License by Activision.</p>
+<p>Source on <a href="https://github.com/historicalsource/zork1">GitHub (historicalsource)</a>.</p>
+</footer>
+
+</body>
+</html>
