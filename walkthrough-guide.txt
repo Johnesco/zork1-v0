@@ -2,862 +2,1292 @@
 
 ## Stage 1
 
-## North of House
-
+# North of House                              Score: 0        Moves: 1 North
+#   of House You are facing the north side of a white house.
 > n
-
-## Forest Path
-
+# Forest Path                                 Score: 0        Moves: 2 Forest
+#   Path This is a path winding through a dimly lit forest.
 > n
-
-## Up a Tree
-
+# Up a Tree                                   Score: 0        Moves: 3 Up a
+#   Tree You are about 10 feet above the ground nestled among some large
+#   branches.
 > u
-# Pick up the egg
+# Up a Tree                                   Score: 5        Moves: 4 Taken.
 > take egg
+# Forest Path                                 Score: 5        Moves: 5 Forest
+#   Path
 > d
+# North of House                              Score: 5        Moves: 6 North
+#   of House
 > s
-
-## Behind House
-
+# Behind House                                Score: 5        Moves: 7 Behind
+#   House You are behind the white house. A path leads into the forest to the
+#   east.
 > e
+# Behind House                                Score: 5        Moves: 8 With
+#   great effort, you open the window far enough to allow entry.
 > open window
-
-## Kitchen
-
+# Kitchen                                     Score: 15       Moves: 9 Kitchen
+#   You are in the kitchen of the white house.
 > w
-# Pick up the sack
+# Kitchen                                     Score: 15       Moves: 10 Taken.
 > take sack
-# Pick up the bottle
+# Kitchen                                     Score: 15       Moves: 11 Taken.
 > take bottle
-
-## Living Room
-
+# Living Room                                 Score: 15       Moves: 12 Living
+#   Room You are in the living room.
 > w
-# Pick up the sword
+# Living Room                                 Score: 15       Moves: 13 Taken.
 > take sword
-# Pick up the lantern
+# Living Room                                 Score: 15       Moves: 14 Taken.
 > take lantern
+# Living Room                                 Score: 15       Moves: 15
+#   Opened.
 > open case
 # Store the egg in the case
+# Living Room                                 Score: 20       Moves: 16 Done.
 > put egg in case
+# Kitchen                                     Score: 20       Moves: 17
+#   Kitchen
 > e
+# Kitchen                                     Score: 20       Moves: 18 The
+#   brass lantern is now on.
 > turn on lantern
-
-## Attic
-
+# Attic                                       Score: 20       Moves: 19 Attic
+#   This is the attic. The only exit is a stairway leading down.
 > u
-# Pick up the rope
+# Attic                                       Score: 20       Moves: 20 Taken.
 > take rope
+# Kitchen                                     Score: 20       Moves: 21
+#   Kitchen
 > d
 # Open the sack
+# Kitchen                                     Score: 20       Moves: 22
+#   Opening the brown sack reveals a lunch, and a clove of garlic.
 > open sack
-# Pick up the garlic
+# Kitchen                                     Score: 20       Moves: 23 Taken.
 > take garlic
-
-## Living Room
-
+# Living Room                                 Score: 20       Moves: 24 Living
+#   Room Your collection of treasures consists of: A jewel-encrusted egg
 > w
+# Living Room                                 Score: 20       Moves: 25 With a
+#   great effort, the rug is moved to one side of the room, revealing the...
 > move rug
 # Open the trap door
+# Living Room                                 Score: 20       Moves: 26 The
+#   door reluctantly opens to reveal a rickety staircase descending into
+#   darkness.
 > open trap door
+# Cellar                                      Score: 45       Moves: 27 The
+#   trap door crashes shut, and you hear someone barring it.
 > d
-
-## East of Chasm
-
+# East of Chasm                               Score: 45       Moves: 28 East
+#   of Chasm You are on the east edge of a chasm, the bottom of which cannot
+#   be seen.
 > s
+# East of Chasm                               Score: 45       Moves: 29
+#   Dropped.
 > drop sack
+# East of Chasm                               Score: 45       Moves: 30
+#   Dropped.
 > drop bottle
+# East of Chasm                               Score: 45       Moves: 31
+#   Dropped.
 > drop rope
-
-## Gallery
-
+# Gallery                                     Score: 45       Moves: 32
+#   Gallery This is an art gallery.
 > e
-# Pick up the painting
+# Gallery                                     Score: 49       Moves: 33 Taken.
 > take painting
-
-## East of Chasm
-
+# East of Chasm                               Score: 49       Moves: 34 East
+#   of Chasm There is a rope here. There is a glass bottle here.
 > w
-
-## Cellar
-
+# Cellar                                      Score: 49       Moves: 35 Cellar
+#   Your sword is glowing with a faint blue glow.
 > n
+# The Troll Room                              Score: 49       Moves: 36 The
+#   Troll Room This is a small room with passages to the east and south and
+#   a...
 > n
+# Combat: troll (3 attempts)
+# The Troll Room                              Score: 49       Moves: 37 Clang!
+#   Crash! The troll parries. The axe gets you right in the side. Ouch!
+> kill troll with sword
+> kill troll with sword
+> kill troll with sword
 
-## Clang! Crash! The troll parries.
-
-# Combat: troll (12 attempts)
-> kill troll with sword
-
-## It's curtains for the troll as your sword removes his head.
-
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
-> kill troll with sword
+# The Troll Room                              Score: 49       Moves: 40
+#   Dropped. Someone carrying a large bag is casually leaning against one of
+#   the walls here.
 > drop sword
-
-## East-West Passage
-
+# East-West Passage                           Score: 54       Moves: 41
+#   East-West Passage This is a narrow east-west passageway.
 > e
-
-## Round Room
-
+# Round Room                                  Score: 54       Moves: 42 Round
+#   Room This is a circular stone room with passages in all directions.
 > e
-
-## Loud Room
-
+# Loud Room                                   Score: 54       Moves: 42 Loud
+#   Room This is a large room with a ceiling which cannot be detected from the
+#   ground.
 > e
+# Loud Room                                   Score: 54       Moves: 43 The
+#   acoustics of the room change subtly. Loud Room On the ground is a large
+#   platinum bar.
 > echo
-# Pick up the platinum bar
+# Loud Room                                   Score: 64       Moves: 44 Taken.
 > take platinum bar
+# Round Room                                  Score: 64       Moves: 45 Round
+#   Room
 > w
-
-## North-South Passage
-
+# North-South Passage                         Score: 64       Moves: 46
+#   North-South Passage This is a high north-south passage, which forks to the
+#   northeast.
 > n
-
-## Deep Canyon
-
+# Deep Canyon                                 Score: 64       Moves: 47 Deep
+#   Canyon You are on the south edge of a deep canyon.
 > ne
-
-## Dam
-
+# Dam                                         Score: 64       Moves: 48 Dam
+#   You are standing on the top of the Flood Control Dam #3, which was quite
+#   a...
 > e
-
-## Dam Lobby
-
+# Dam Lobby                                   Score: 64       Moves: 49 Dam
+#   Lobby This room appears to have been the waiting room for groups touring
+#   the dam.
 > n
-# Pick up the matchbook
+# Dam Lobby                                   Score: 64       Moves: 50 Taken.
 > take matchbook
-
-## Maintenance Room
-
+# Maintenance Room                            Score: 64       Moves: 51
+#   Maintenance Room This is what appears to have been the maintenance room
+#   for...
 > n
+# Maintenance Room                            Score: 64       Moves: 52 Click.
 > press yellow button
-# Pick up the wrench
+# Maintenance Room                            Score: 64       Moves: 53 Taken.
 > take wrench
-# Pick up the screwdriver
+# Maintenance Room                            Score: 64       Moves: 54 Taken.
 > take screwdriver
-
-## Dam Lobby
-
+# Dam Lobby                                   Score: 64       Moves: 55 Dam
+#   Lobby Some guidebooks entitled "Flood Control Dam #3" are on the reception
+#   desk.
 > s
-
-## Dam
-
+# Dam                                         Score: 64       Moves: 56 Dam
+#   You are standing on the top of the Flood Control Dam #3, which was quite
+#   a...
 > s
+# Dam                                         Score: 64       Moves: 57 The
+#   sluice gates open and water pours through the dam.
 > turn bolt with wrench
+# Dam                                         Score: 64       Moves: 58
+#   Dropped.
 > drop wrench
+# Deep Canyon                                 Score: 64       Moves: 59 Deep
+#   Canyon
 > s
+# North-South Passage                         Score: 64       Moves: 60
+#   North-South Passage
 > sw
+# Round Room                                  Score: 64       Moves: 61 Round
+#   Room
 > s
+# East-West Passage                           Score: 64       Moves: 62
+#   East-West Passage
 > w
+# The Troll Room                              Score: 64       Moves: 63 The
+#   Troll Room There is a sword here. There is a bloody axe here.
 > w
-
-## Maze
-
+# Maze                                        Score: 64       Moves: 64 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > w
+# Maze                                        Score: 64       Moves: 65 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Maze                                        Score: 64       Moves: 66 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 64       Moves: 67 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > u
+# Maze                                        Score: 64       Moves: 68 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > sw
+# Maze                                        Score: 64       Moves: 69 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 64       Moves: 70 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
-
-## Cyclops Room
-
+# Cyclops Room                                Score: 64       Moves: 71
+#   Cyclops Room This room has an exit on the northwest, and a staircase
+#   leading up.
 > se
+# Cyclops Room                                Score: 64       Moves: 72 The
+#   cyclops, hearing the name of his father's deadly nemesis, flees the room
+#   by...
 > odysseus
-
-## Strange Passage
-
+# Strange Passage                             Score: 64       Moves: 73
+#   Strange Passage This is a long passage. To the west is one entrance.
 > e
-
-## Living Room
-
+# Living Room                                 Score: 64       Moves: 74 Living
+#   Room Your collection of treasures consists of: A jewel-encrusted egg
 > e
+# Living Room                                 Score: 64       Moves: 75 The
+#   brass lantern is now off.
 > turn off lantern
 # Store the painting in the case
+# Living Room                                 Score: 70       Moves: 76 Done.
 > put painting in case
 # Store the platinum bar in the case
+# Living Room                                 Score: 75       Moves: 77 Done.
 > put platinum bar in case
+# Living Room                                 Score: 75       Moves: 78 The
+#   brass lantern is now on.
 > turn on lantern
 # Open the trap door
+# Living Room                                 Score: 75       Moves: 79 The
+#   door reluctantly opens to reveal a rickety staircase descending into
+#   darkness.
 > open trap door
+# Cellar                                      Score: 75       Moves: 80 Cellar
 > d
-
-## East of Chasm
-
+# East of Chasm                               Score: 75       Moves: 81 East
+#   of Chasm There is a rope here. There is a glass bottle here.
 > s
-# Pick up the rope
+# East of Chasm                               Score: 75       Moves: 82 Taken.
 > take rope
+# Cellar                                      Score: 75       Moves: 83 Cellar
 > n
+# The Troll Room                              Score: 75       Moves: 84 The
+#   Troll Room There is a sword here. There is a bloody axe here.
 > n
+# East-West Passage                           Score: 75       Moves: 85
+#   East-West Passage
 > e
+# Round Room                                  Score: 75       Moves: 86 Round
+#   Room
 > e
-
-## Engravings Cave
-
+# Engravings Cave                             Score: 75       Moves: 87
+#   Engravings Cave You have entered a low cave with passages leading
+#   northwest and east.
 > se
-
-## Dome Room
-
+# Dome Room                                   Score: 75       Moves: 88 Dome
+#   Room You are at the periphery of a large dome, which forms the ceiling
+#   of...
 > e
+# Dome Room                                   Score: 75       Moves: 89 The
+#   rope drops over the side and comes within ten feet of the floor.
 > tie rope to railing
-
-## Torch Room
-
+# Torch Room                                  Score: 75       Moves: 90 Torch
+#   Room This is a large room with a prominent doorway leading to a down
+#   staircase.
 > d
-# Pick up the torch
+# Torch Room                                  Score: 89       Moves: 91 Taken.
 > take torch
-
-## Temple
-
+# Temple                                      Score: 89       Moves: 92 Temple
+#   This is the north end of a large temple.
 > s
-# Pick up the bell
+# Temple                                      Score: 89       Moves: 93 Taken.
 > take bell
-
-## Altar
-
+# Altar                                       Score: 89       Moves: 94 Altar
+#   This is the south end of a large temple.
 > s
-# Pick up the book
+# Altar                                       Score: 89       Moves: 95 Taken.
 > take book
-# Pick up the candles
+# Altar                                       Score: 89       Moves: 96 Taken.
 > take candles
-
-## Cave
-
+# Cave                                        Score: 89       Moves: 97 Cave
+#   This is a tiny cave with entrances west and north, and a dark,
+#   forbidding...
 > d
-
-## Entrance to Hades
-
+# Entrance to Hades                           Score: 89       Moves: 98
+#   Entrance to Hades You are outside a large gateway, on which is
+#   inscribed...
 > d
+# Entrance to Hades                           Score: 89       Moves: 99 The
+#   bell suddenly becomes red hot and falls to the ground.
 > ring bell
-# Pick up the candles
+# Entrance to Hades                           Score: 89       Moves: 100
+#   Taken.
 > take candles
+# Entrance to Hades                           Score: 89       Moves: 101 One
+#   of the matches starts to burn.
 > light match
+# Entrance to Hades                           Score: 89       Moves: 102 The
+#   candles are lit. The flames flicker wildly and appear to dance.
 > light candles with match
+# Entrance to Hades                           Score: 89       Moves: 103 Each
+#   word of the prayer reverberates through the hall in a deafening confusion.
 > read book
+# Entrance to Hades                           Score: 89       Moves: 104
+#   Dropped.
 > drop book
+# Entrance to Hades                           Score: 89       Moves: 105
+#   Dropped.
 > drop candles
-
-## Land of the Dead
-
+# Land of the Dead                            Score: 89       Moves: 106 Land
+#   of the Dead You have entered the Land of the Living Dead.
 > s
-# Pick up the skull
+# Land of the Dead                            Score: 99       Moves: 107
+#   Taken.
 > take skull
-
-## Entrance to Hades
-
+# Entrance to Hades                           Score: 99       Moves: 108
+#   Entrance to Hades There is a pair of candles here (providing light).
 > n
+# Cave                                        Score: 99       Moves: 109 Cave
 > u
-
-## Mirror Room
-
+# Mirror Room                                 Score: 99       Moves: 110
+#   Mirror Room You are in a large square room with tall ceilings.
 > n
-
-## Narrow Passage
-
+# Narrow Passage                              Score: 99       Moves: 111
+#   Narrow Passage This is a long and narrow corridor where a long
+#   north-south...
 > n
+# Round Room                                  Score: 99       Moves: 112 Round
+#   Room
 > n
+# East-West Passage                           Score: 99       Moves: 113
+#   East-West Passage
 > w
+# The Troll Room                              Score: 99       Moves: 114 The
+#   Troll Room There is a sword here. There is a bloody axe here.
 > w
-
-## Maze
-
+# Maze                                        Score: 99       Moves: 115 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > w
+# Maze                                        Score: 99       Moves: 116 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Maze                                        Score: 99       Moves: 117 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 99       Moves: 118 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > u
+# Maze                                        Score: 99       Moves: 119 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > sw
+# Maze                                        Score: 99       Moves: 120 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 99       Moves: 121 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Cyclops Room                                Score: 99       Moves: 122
+#   Cyclops Room
 > se
+# Strange Passage                             Score: 99       Moves: 123
+#   Strange Passage
 > e
-
-## Stage 2
-
-## Living Room
-
+# Living Room                                 Score: 99       Moves: 124
+#   Living Room Your collection of treasures consists of: A platinum bar A...
 > e
+# Living Room                                 Score: 99       Moves: 125 The
+#   brass lantern is now off.
 > turn off lantern
 # Store the torch in the case
+# Living Room                                 Score: 105      Moves: 126 Done.
 > put torch in case
 # Store the skull in the case
+# Living Room                                 Score: 115      Moves: 127 Done.
 > put skull in case
+# Living Room                                 Score: 115      Moves: 128 The
+#   brass lantern is now on.
 > turn on lantern
+# Living Room                                 Score: 115      Moves: 129 Look
+#   around.
 > open trap door
-
-## Cellar
-
+# Cellar                                      Score: 115      Moves: 130
+#   Cellar
 > d
+# The Troll Room                              Score: 115      Moves: 131 The
+#   Troll Room There is a sword here. There is a bloody axe here.
 > n
+# East-West Passage                           Score: 115      Moves: 132
+#   East-West Passage
 > e
+# Round Room                                  Score: 115      Moves: 133 Round
+#   Room
 > e
-
-## Engravings Cave
-
+# Engravings Cave                             Score: 115      Moves: 134
+#   Engravings Cave There are old engravings on the walls here.
 > se
+# Dome Room                                   Score: 115      Moves: 135 Dome
+#   Room
 > e
+# Torch Room                                  Score: 115      Moves: 136 Torch
+#   Room
 > d
+# Temple                                      Score: 115      Moves: 137
+#   Temple
 > s
-
-## Egyptian Room
-
+# Egyptian Room                               Score: 115      Moves: 138
+#   Egyptian Room This is a room which looks like an Egyptian tomb.
 > d
-# Pick up the coffin
+# Egyptian Room                               Score: 125      Moves: 139
+#   Taken.
 > take coffin
+# Egyptian Room                               Score: 125      Moves: 140 The
+#   gold coffin opens.
 > open coffin
-# Pick up the sceptre
+# Egyptian Room                               Score: 129      Moves: 141
+#   Taken.
 > take sceptre
+# Temple                                      Score: 129      Moves: 142
+#   Temple
 > u
+# Altar                                       Score: 129      Moves: 143 Altar
 > s
-
-## Forest
-
+# Forest                                      Score: 129      Moves: 144
+#   Forest This is a forest, with trees in all directions.
 > pray
+# Forest                                      Score: 129      Moves: 145 The
+#   brass lantern is now off.
 > turn off lantern
+# Forest                                      Score: 129      Moves: 146
+#   Dropped.
 > drop lantern
+# Forest                                      Score: 129      Moves: 147
+#   Dropped.
 > drop screwdriver
+# Forest                                      Score: 129      Moves: 148
+#   Forest This is a dimly lit forest, with large trees all around.
 > s
-
-## Clearing
-
+# Clearing                                    Score: 129      Moves: 149
+#   Clearing You are in a small clearing in a well marked forest path that
+#   extends...
 > n
-
-## Canyon View
-
+# Canyon View                                 Score: 129      Moves: 150
+#   Canyon View You are at the top of the Great Canyon on its west wall.
 > e
-
-## Rocky Ledge
-
+# Rocky Ledge                                 Score: 129      Moves: 151 Rocky
+#   Ledge You are on a ledge about halfway up the wall of the river canyon.
 > d
-
-## Canyon Bottom
-
+# Canyon Bottom                               Score: 129      Moves: 152
+#   Canyon Bottom You are beneath the walls of the river canyon which may be
+#   climbable here.
 > d
-
-## End of Rainbow
-
+# End of Rainbow                              Score: 129      Moves: 153 End
+#   of Rainbow You are on a small, rocky beach on the continuation of the...
 > n
+# End of Rainbow                              Score: 129      Moves: 154
+#   Suddenly, the rainbow appears to become solid and, I venture, walkable
+#   (I...
 > wave sceptre
-# Pick up the pot of gold
+# End of Rainbow                              Score: 139      Moves: 155
+#   Taken.
 > take pot of gold
+# Canyon Bottom                               Score: 139      Moves: 156
+#   Canyon Bottom
 > sw
+# Rocky Ledge                                 Score: 139      Moves: 157 Rocky
+#   Ledge
 > u
+# Canyon View                                 Score: 139      Moves: 158
+#   Canyon View
 > u
+# Clearing                                    Score: 139      Moves: 159
+#   Clearing
 > nw
+# Forest                                      Score: 139      Moves: 160
+#   Forest
 > s
-
-## Forest
-
+# Forest                                      Score: 139      Moves: 161
+#   Forest There is a screwdriver here. There is a brass lantern
+#   (battery-powered) here.
 > w
-# Pick up the lantern
+# Forest                                      Score: 139      Moves: 162
+#   Taken.
 > take lantern
+# Forest Path                                 Score: 139      Moves: 163
+#   Forest Path
 > e
+# North of House                              Score: 139      Moves: 164 North
+#   of House
 > s
+# Behind House                                Score: 139      Moves: 165
+#   Behind House
 > e
+# Kitchen                                     Score: 139      Moves: 166
+#   Kitchen
 > w
-
-## Living Room
-
+# Living Room                                 Score: 139      Moves: 167
+#   Living Room Your collection of treasures consists of: A crystal skull A
+#   torch...
 > w
 # Store the coffin in the case
+# Living Room                                 Score: 154      Moves: 168 Done.
 > put coffin in case
 # Store the sceptre in the case
+# Living Room                                 Score: 160      Moves: 169 Done.
 > put sceptre in case
 # Store the pot of gold in the case
+# Living Room                                 Score: 170      Moves: 170 Done.
 > put pot of gold in case
+# Living Room                                 Score: 170      Moves: 171 The
+#   brass lantern is now on.
 > turn on lantern
+# Living Room                                 Score: 170      Moves: 172 Too
+#   late for that.
 > open trap door
-
-## Cellar
-
+# Cellar                                      Score: 170      Moves: 173
+#   Cellar
 > d
+# The Troll Room                              Score: 170      Moves: 174 The
+#   Troll Room There is a sword here. There is a bloody axe here.
 > n
+# East-West Passage                           Score: 170      Moves: 175
+#   East-West Passage
 > e
+# Round Room                                  Score: 170      Moves: 176 Round
+#   Room
 > e
+# North-South Passage                         Score: 170      Moves: 177
+#   North-South Passage
 > n
-
-## Deep Canyon
-
+# Deep Canyon                                 Score: 170      Moves: 178 Deep
+#   Canyon You are on the south edge of a deep canyon.
 > ne
-
-## Reservoir South
-
+# Reservoir South                             Score: 170      Moves: 179
+#   Reservoir South You are in a long room, to the north of which was formerly
+#   a lake.
 > nw
-
-## Reservoir
-
+# Reservoir                                   Score: 170      Moves: 180
+#   Reservoir You are on what used to be a large lake, but which is now a
+#   large mud pile.
 > n
-
-## Reservoir North
-
+# Reservoir North                             Score: 170      Moves: 181
+#   Reservoir North You are in a large cavernous room, the south of which
+#   was...
 > n
-# Pick up the pump
+# Reservoir North                             Score: 170      Moves: 182
+#   Taken.
 > take pump
-
-## Atlantis Room
-
+# Atlantis Room                               Score: 170      Moves: 183
+#   Atlantis Room This is an ancient room, long under water.
 > n
-# Pick up the trident
+# Atlantis Room                               Score: 174      Moves: 184
+#   Taken.
 > take trident
+# Reservoir North                             Score: 174      Moves: 185
+#   Reservoir North
 > s
-
-## Reservoir
-
+# Reservoir                                   Score: 174      Moves: 186
+#   Reservoir Lying half buried in the mud is an old trunk, bulging with
+#   jewels.
 > s
-# Pick up the trunk
+# Reservoir                                   Score: 189      Moves: 187
+#   Taken.
 > take trunk
+# Reservoir South                             Score: 189      Moves: 188
+#   Reservoir South
 > s
+# Deep Canyon                                 Score: 189      Moves: 189 Deep
+#   Canyon
 > se
+# North-South Passage                         Score: 189      Moves: 190
+#   North-South Passage
 > sw
+# Round Room                                  Score: 189      Moves: 191 Round
+#   Room
 > s
+# East-West Passage                           Score: 189      Moves: 192
+#   East-West Passage
 > w
+# The Troll Room                              Score: 189      Moves: 193 The
+#   Troll Room There is a glass bottle here.
 > w
-
-## Maze
-
+# Maze                                        Score: 189      Moves: 194 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > w
+# Maze                                        Score: 189      Moves: 195 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Maze                                        Score: 189      Moves: 196 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 189      Moves: 197 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > u
+# Maze                                        Score: 189      Moves: 198 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > sw
+# Maze                                        Score: 189      Moves: 199 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 189      Moves: 200 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Cyclops Room                                Score: 189      Moves: 201
+#   Cyclops Room
 > se
+# Strange Passage                             Score: 189      Moves: 202
+#   Strange Passage
 > e
-
-## Stage 3
-
-## Living Room
-
+# Living Room                                 Score: 189      Moves: 203
+#   Living Room Your collection of treasures consists of: A pot of gold A
+#   sceptre...
 > e
+# Living Room                                 Score: 189      Moves: 204 The
+#   brass lantern is now off.
 > turn off lantern
 # Store the trunk in the case
+# Living Room                                 Score: 194      Moves: 205 Done.
 > put trunk in case
 # Store the trident in the case
+# Living Room                                 Score: 205      Moves: 206 Done.
 > put trident in case
+# Kitchen                                     Score: 205      Moves: 207
+#   Kitchen
 > e
+# Behind House                                Score: 205      Moves: 208
+#   Behind House
 > e
+# North of House                              Score: 205      Moves: 209 North
+#   of House
 > nw
+# Forest Path                                 Score: 205      Moves: 210
+#   Forest Path
 > n
-
-## Forest
-
+# Forest                                      Score: 205      Moves: 211
+#   Forest There is a screwdriver here. You hear in the distance the chirping
+#   of a song bird.
 > w
-# Pick up the screwdriver
+# Forest                                      Score: 205      Moves: 212
+#   Taken.
 > take screwdriver
+# Forest Path                                 Score: 205      Moves: 213
+#   Forest Path
 > e
+# North of House                              Score: 205      Moves: 214 North
+#   of House
 > s
+# Behind House                                Score: 205      Moves: 215
+#   Behind House
 > e
+# Kitchen                                     Score: 205      Moves: 216
+#   Kitchen
 > w
-
-## Living Room
-
+# Living Room                                 Score: 205      Moves: 217
+#   Living Room Your collection of treasures consists of: A crystal trident
+#   A...
 > w
-# Pick up the torch
+# Living Room                                 Score: 199      Moves: 218
+#   Taken.
 > take torch from case
+# Living Room                                 Score: 199      Moves: 219 The
+#   brass lantern is now on.
 > turn on lantern
+# Living Room                                 Score: 199      Moves: 220 Have
+#   your eyes checked.
 > open trap door
+# Cellar                                      Score: 199      Moves: 221
+#   Cellar
 > d
+# The Troll Room                              Score: 199      Moves: 222 The
+#   Troll Room There is a glass bottle here.
 > n
+# East-West Passage                           Score: 199      Moves: 223
+#   East-West Passage
 > e
+# Round Room                                  Score: 199      Moves: 224 Round
+#   Room
 > e
+# Narrow Passage                              Score: 199      Moves: 225
+#   Narrow Passage
 > s
+# Mirror Room                                 Score: 199      Moves: 226
+#   Mirror Room
 > s
+# Mirror Room                                 Score: 199      Moves: 227 There
+#   is a rumble from deep within the earth and the room shakes.
 > rub mirror
-
-## Cold Passage
-
+# Cold Passage                                Score: 199      Moves: 228 Cold
+#   Passage This is a cold and damp corridor where a long east-west...
 > n
-
-## Slide Room
-
+# Slide Room                                  Score: 199      Moves: 229 Slide
+#   Room This is a small chamber, which appears to have been part of a coal
+#   mine.
 > w
-
-## Mine Entrance
-
+# Mine Entrance                               Score: 199      Moves: 230 Mine
+#   Entrance You are standing at the entrance of what might have been a coal
+#   mine.
 > n
-
-## Squeaky Room
-
+# Squeaky Room                                Score: 199      Moves: 231
+#   Squeaky Room You are in a small room.
 > w
-
-## Bat Room
-
+# Bat Room                                    Score: 199      Moves: 232 Bat
+#   Room You are in a small room which has doors only to the east and south.
 > n
-# Pick up the jade
+# Bat Room                                    Score: 204      Moves: 233
+#   Taken.
 > take jade
-
-## Shaft Room
-
+# Shaft Room                                  Score: 204      Moves: 234 Shaft
+#   Room This is a large room, in the middle of which is a small shaft...
 > e
 # Store the torch in the basket
+# Shaft Room                                  Score: 204      Moves: 235 Done.
 > put torch in basket
 # Store the screwdriver in the basket
+# Shaft Room                                  Score: 204      Moves: 236 Done.
 > put screwdriver in basket
-
-## Smelly Room
-
+# Smelly Room                                 Score: 204      Moves: 237
+#   Smelly Room This is a small nondescript room.
 > n
-
-## Gas Room
-
+# Gas Room                                    Score: 204      Moves: 238 Gas
+#   Room This is a small room which smells strongly of coal gas.
 > d
-# Pick up the bracelet
+# Gas Room                                    Score: 209      Moves: 239
+#   Taken.
 > take bracelet
-
-## Coal Mine
-
+# Coal Mine                                   Score: 209      Moves: 240 Coal
+#   Mine This is a nondescript part of a coal mine.
 > e
+# Coal Mine                                   Score: 209      Moves: 241 Coal
+#   Mine This is a nondescript part of a coal mine.
 > ne
+# Coal Mine                                   Score: 209      Moves: 242 Coal
+#   Mine This is a nondescript part of a coal mine.
 > se
+# Coal Mine                                   Score: 209      Moves: 243 Coal
+#   Mine This is a nondescript part of a coal mine.
 > sw
-
-## Ladder Top
-
+# Ladder Top                                  Score: 209      Moves: 244
+#   Ladder Top This is a very small room.
 > d
-
-## Ladder Bottom
-
+# Ladder Bottom                               Score: 209      Moves: 245
+#   Ladder Bottom This is a rather wide room.
 > d
-
-## Dead End
-
+# Dead End                                    Score: 209      Moves: 246 Dead
+#   End You have come to a dead end in the mine. There is a small pile of coal
+#   here.
 > s
-# Pick up the coal
+# Dead End                                    Score: 209      Moves: 247
+#   Taken.
 > take coal
+# Ladder Bottom                               Score: 209      Moves: 248
+#   Ladder Bottom
 > n
+# Ladder Top                                  Score: 209      Moves: 249
+#   Ladder Top
 > u
+# Coal Mine                                   Score: 209      Moves: 250 Coal
+#   Mine
 > u
-
-## Coal Mine
-
+# Coal Mine                                   Score: 209      Moves: 251 Coal
+#   Mine
 > n
+# Coal Mine                                   Score: 209      Moves: 252 Coal
+#   Mine
 > e
+# Coal Mine                                   Score: 209      Moves: 253 Coal
+#   Mine
 > s
+# Gas Room                                    Score: 209      Moves: 254 Gas
+#   Room
 > n
+# Smelly Room                                 Score: 209      Moves: 255
+#   Smelly Room
 > u
-
-## Shaft Room
-
+# Shaft Room                                  Score: 209      Moves: 256 Shaft
+#   Room At the end of the chain is a basket.
 > s
 # Store the coal in the basket
+# Shaft Room                                  Score: 209      Moves: 257 Done.
 > put coal in basket
+# Shaft Room                                  Score: 209      Moves: 258 The
+#   basket is lowered to the bottom of the shaft.
 > lower basket
+# Smelly Room                                 Score: 209      Moves: 259
+#   Smelly Room
 > n
+# Gas Room                                    Score: 209      Moves: 260 Gas
+#   Room
 > d
+# Coal Mine                                   Score: 209      Moves: 261 Coal
+#   Mine
 > e
-
-## Coal Mine
-
+# Coal Mine                                   Score: 209      Moves: 262 Coal
+#   Mine
 > ne
+# Coal Mine                                   Score: 209      Moves: 263 Coal
+#   Mine
 > se
+# Coal Mine                                   Score: 209      Moves: 264 Coal
+#   Mine The lamp appears a bit dimmer.
 > sw
+# Ladder Top                                  Score: 209      Moves: 265
+#   Ladder Top
 > d
+# Ladder Bottom                               Score: 209      Moves: 266
+#   Ladder Bottom
 > d
-
-## Timber Room
-
+# Timber Room                                 Score: 209      Moves: 267
+#   Timber Room This is a long and narrow passage, which is cluttered with
+#   broken timbers.
 > w
+# Timber Room                                 Score: 209      Moves: 268
+#   Dropped.
 > drop lantern
+# Timber Room                                 Score: 209      Moves: 269
+#   Dropped.
 > drop jade
+# Timber Room                                 Score: 209      Moves: 270
+#   Dropped.
 > drop bracelet
+# Timber Room                                 Score: 209      Moves: 271
+#   Dropped.
 > drop pump
-
-## Drafty Room
-
+# Drafty Room                                 Score: 209      Moves: 272
+#   Drafty Room This is a small drafty room in which is the bottom of a long
+#   shaft.
 > w
-# Pick up the torch
+# Drafty Room                                 Score: 222      Moves: 273
+#   Taken.
 > take torch
-# Pick up the coal
+# Drafty Room                                 Score: 222      Moves: 274
+#   Taken.
 > take coal
-# Pick up the screwdriver
+# Drafty Room                                 Score: 222      Moves: 275
+#   Taken.
 > take screwdriver
-
-## Machine Room
-
+# Machine Room                                Score: 222      Moves: 276
+#   Machine Room This is a large, cold room whose sole exit is to the north.
 > s
+# Machine Room                                Score: 222      Moves: 277 The
+#   lid opens.
 > open lid
 # Store the coal in the machine
+# Machine Room                                Score: 222      Moves: 278 Done.
 > put coal in machine
+# Machine Room                                Score: 222      Moves: 279 The
+#   lid closes.
 > close lid
+# Machine Room                                Score: 222      Moves: 280 The
+#   machine comes to life (figuratively) with a dazzling display of colored...
 > turn switch with screwdriver
+# Machine Room                                Score: 222      Moves: 281
+#   Dropped.
 > drop screwdriver
 # Open the lid
+# Machine Room                                Score: 222      Moves: 282 The
+#   lid opens, revealing a huge diamond.
 > open lid
-# Pick up the diamond
+# Machine Room                                Score: 232      Moves: 283
+#   Taken.
 > take diamond
-
-## Drafty Room
-
+# Drafty Room                                 Score: 232      Moves: 284
+#   Drafty Room At the end of the chain is a basket.
 > n
 # Store the diamond in the basket
+# Drafty Room                                 Score: 232      Moves: 285 Done.
 > put diamond in basket
 # Store the torch in the basket
+# Drafty Room                                 Score: 232      Moves: 286 Done.
 > put torch in basket
+# Drafty Room                                 Score: 232      Moves: 287 The
+#   basket is raised to the top of the shaft.
 > raise basket
-
-## Timber Room
-
+# Timber Room                                 Score: 232      Moves: 288
+#   Timber Room There is a hand-held air pump here.
 > e
-# Pick up the lantern
+# Timber Room                                 Score: 232      Moves: 289
+#   Taken.
 > take lantern
-# Pick up the jade
+# Timber Room                                 Score: 232      Moves: 290
+#   Taken.
 > take jade
-# Pick up the bracelet
+# Timber Room                                 Score: 232      Moves: 291
+#   Taken.
 > take bracelet
-# Pick up the pump
+# Timber Room                                 Score: 232      Moves: 292
+#   Taken.
 > take pump
+# Ladder Bottom                               Score: 232      Moves: 293
+#   Ladder Bottom
 > e
+# Ladder Top                                  Score: 232      Moves: 294
+#   Ladder Top
 > u
+# Coal Mine                                   Score: 232      Moves: 295 Coal
+#   Mine
 > u
+# Coal Mine                                   Score: 232      Moves: 296 Coal
+#   Mine
 > n
-
-## Stage 4
-
-## Coal Mine
-
+# Coal Mine                                   Score: 232      Moves: 297 Coal
+#   Mine
 > e
+# Coal Mine                                   Score: 232      Moves: 298 Coal
+#   Mine
 > s
+# Gas Room                                    Score: 232      Moves: 299 Gas
+#   Room
 > n
+# Smelly Room                                 Score: 232      Moves: 300
+#   Smelly Room There is a sword here.
 > u
-
-## Shaft Room
-
+# Shaft Room                                  Score: 232      Moves: 301 Shaft
+#   Room At the end of the chain is a basket.
 > s
-# Pick up the diamond
+# Shaft Room                                  Score: 232      Moves: 302
+#   Taken.
 > take diamond
-# Pick up the torch
+# Shaft Room                                  Score: 232      Moves: 303
+#   Taken.
 > take torch
-
-## Bat Room
-
+# Bat Room                                    Score: 232      Moves: 304 Bat
+#   Room In the corner of the room on the ceiling is a large vampire bat
+#   who...
 > w
+# Squeaky Room                                Score: 232      Moves: 305
+#   Squeaky Room
 > s
+# Mine Entrance                               Score: 232      Moves: 306 Mine
+#   Entrance
 > e
+# Slide Room                                  Score: 232      Moves: 307 Slide
+#   Room
 > s
+# Cellar                                      Score: 232      Moves: 308
+#   Cellar
 > d
-
-## Living Room
-
+# Living Room                                 Score: 232      Moves: 309
+#   Living Room Your collection of treasures consists of: A crystal trident
+#   A...
 > up
+# Living Room                                 Score: 232      Moves: 310 The
+#   brass lantern is now off.
 > turn off lantern
 # Store the jade in the case
+# Living Room                                 Score: 237      Moves: 311 Done.
 > put jade in case
 # Store the bracelet in the case
+# Living Room                                 Score: 242      Moves: 312 Done.
 > put bracelet in case
 # Store the diamond in the case
+# Living Room                                 Score: 252      Moves: 313 Done.
 > put diamond in case
 # Store the torch in the case
+# Living Room                                 Score: 258      Moves: 314 Done.
 > put torch in case
+# Living Room                                 Score: 258      Moves: 315 The
+#   brass lantern is now on.
 > turn on lantern
+# Living Room                                 Score: 258      Moves: 316 Too
+#   late for that.
 > open trap door
+# Cellar                                      Score: 258      Moves: 317
+#   Cellar
 > d
+# The Troll Room                              Score: 258      Moves: 318 The
+#   Troll Room There is a glass bottle here.
 > n
+# East-West Passage                           Score: 258      Moves: 319
+#   East-West Passage
 > e
+# Round Room                                  Score: 258      Moves: 320 Round
+#   Room
 > e
+# North-South Passage                         Score: 258      Moves: 321
+#   North-South Passage
 > n
+# Deep Canyon                                 Score: 258      Moves: 322 Deep
+#   Canyon
 > ne
-
-## Dam
-
+# Dam                                         Score: 258      Moves: 323 Dam
+#   There is a wrench here.
 > e
+# Dam                                         Score: 258      Moves: 324 The
+#   brass lantern is now off.
 > turn off lantern
-
-## Dam Base
-
+# Dam Base                                    Score: 258      Moves: 325 Dam
+#   Base You are at the base of Flood Control Dam #3, which looms above you...
 > d
+# Dam Base                                    Score: 258      Moves: 326 The
+#   boat inflates and appears seaworthy. A tan label is lying inside the boat.
 > inflate plastic with pump
+# Dam Base                                    Score: 258      Moves: 327
+#   Dropped.
 > drop pump
+# Dam Base                                    Score: 258      Moves: 328 The
+#   brass lantern is now on.
 > turn on lantern
+# Dam Base                                    Score: 258      Moves: 329 You
+#   are now in the magic boat.
 > enter boat
+# Frigid River                                Score: 258      Moves: 330
+#   (magic boat) Frigid River, in the magic boat You are on the Frigid River
+#   in...
 > launch
-
-## Time passes...
-
 # Repeat: wait (4 times)
+# Frigid River                                Score: 258      Moves: 333 Time
+#   passes... The flow of the river carries you downstream.
 > wait
 > wait
 > wait
 > wait
-# Pick up the buoy
+
+# Frigid River                                Score: 258      Moves: 341
+#   Taken.
 > take buoy
+# Sandy Beach                                 Score: 258      Moves: 342 The
+#   magic boat comes to a rest on the shore.
 > east
+# Sandy Beach                                 Score: 258      Moves: 343 You
+#   are on your own feet again.
 > exit
-# Pick up the shovel
+# Sandy Beach                                 Score: 258      Moves: 344
+#   Taken.
 > take shovel
-
-## Sandy Cave
-
+# Sandy Cave                                  Score: 258      Moves: 345 Sandy
+#   Cave This is a sand-filled cave whose exit is to the southwest.
 > ne
 # Repeat: dig sand with shovel (4 times)
+# Sandy Cave                                  Score: 258      Moves: 346 You
+#   seem to be digging a hole here. The thief, finding nothing of value, left
+#   disgusted.
 > dig sand with shovel
 > dig sand with shovel
 > dig sand with shovel
 > dig sand with shovel
-# Pick up the scarab
+
+# Sandy Cave                                  Score: 263      Moves: 350
+#   Taken.
 > take scarab
+# Sandy Cave                                  Score: 263      Moves: 351
+#   Dropped.
 > drop shovel
-
-## Sandy Beach
-
+# Sandy Beach                                 Score: 263      Moves: 352 Sandy
+#   Beach There is a magic boat here. The magic boat contains: A tan label
 > sw
+# Sandy Beach                                 Score: 263      Moves: 353
+#   Dropped.
 > drop buoy
 # Open the buoy
+# Sandy Beach                                 Score: 268      Moves: 354
+#   Opening the red buoy reveals a large emerald.
 > open buoy
-# Pick up the emerald
+# Sandy Beach                                 Score: 268      Moves: 355
+#   Taken.
 > take emerald
-
-## Shore
-
+# Shore                                       Score: 268      Moves: 356 Shore
+#   You are on the east shore of the river. The water here seems somewhat
+#   treacherous.
 > s
-
-## Aragain Falls
-
+# Aragain Falls                               Score: 268      Moves: 357
+#   Aragain Falls You are at the top of Aragain Falls, an enormous waterfall
+#   with...
 > s
-
-## On the Rainbow
-
+# On the Rainbow                              Score: 268      Moves: 358 On
+#   the Rainbow You are on top of a rainbow (I bet you never thought you
+#   would...
 > w
+# End of Rainbow                              Score: 268      Moves: 359 End
+#   of Rainbow
 > w
+# Canyon Bottom                               Score: 268      Moves: 360
+#   Canyon Bottom
 > sw
+# Rocky Ledge                                 Score: 268      Moves: 361 Rocky
+#   Ledge
 > u
+# Canyon View                                 Score: 268      Moves: 362
+#   Canyon View
 > u
+# Clearing                                    Score: 268      Moves: 363
+#   Clearing
 > nw
+# Behind House                                Score: 268      Moves: 364
+#   Behind House
 > w
+# Kitchen                                     Score: 268      Moves: 365
+#   Kitchen
 > w
-
-## Stage 5
-
-## Living Room
-
+# Living Room                                 Score: 268      Moves: 366
+#   Living Room Your collection of treasures consists of: A torch
+#   (providing...
 > w
 # Store the emerald in the case
+# Living Room                                 Score: 278      Moves: 367 Done.
 > put emerald in case
 # Store the scarab in the case
+# Living Room                                 Score: 283      Moves: 368 Done.
 > put scarab in case
-# Pick up the egg
+# Living Room                                 Score: 278      Moves: 369
+#   Taken.
 > take egg from case
+# Living Room                                 Score: 278      Moves: 370 It is
+#   already on.
 > turn on lantern
+# Living Room                                 Score: 278      Moves: 371 Look
+#   around.
 > open trap door
-
-## Cellar
-
+# Cellar                                      Score: 278      Moves: 372
+#   Cellar There is a glass bottle here.
 > d
+# The Troll Room                              Score: 278      Moves: 373 The
+#   Troll Room There is a bloody axe here. The lamp is definitely dimmer now.
 > n
-# Pick up the axe
+# The Troll Room                              Score: 278      Moves: 374
+#   Taken.
 > take axe
-
-## Maze
-
+# Maze                                        Score: 278      Moves: 375 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > w
+# Maze                                        Score: 278      Moves: 376 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Maze                                        Score: 278      Moves: 377 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 278      Moves: 378 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > u
-# Pick up the coins
+# Maze                                        Score: 288      Moves: 379
+#   Taken.
 > take coins
+# Maze                                        Score: 288      Moves: 380 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > sw
+# Maze                                        Score: 288      Moves: 381 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > e
+# Maze                                        Score: 288      Moves: 382 Maze
+#   This is part of a maze of twisty little passages, all alike.
 > s
+# Cyclops Room                                Score: 288      Moves: 383
+#   Cyclops Room
 > se
+# Treasure Room                               Score: 313      Moves: 384 You
+#   hear a scream of anguish as you violate the robber's hideaway.
 > u
 # Give egg to thief
+# Treasure Room                               Score: 313      Moves: 385 The
+#   thief is taken aback by your unexpected generosity, but accepts the...
 > give egg to thief
+# Cyclops Room                                Score: 313      Moves: 386
+#   Cyclops Room
 > d
+# Treasure Room                               Score: 313      Moves: 387 You
+#   hear a scream of anguish as you violate the robber's hideaway.
 > u
+# Combat: thief (6 attempts)
+# Treasure Room                               Score: 313      Moves: 388 The
+#   thief is momentarily disoriented and can't fight back.
+> kill thief with axe
+> kill thief with axe
+> kill thief with axe
+> kill thief with axe
+> kill thief with axe
+> kill thief with axe
 
-## Slash! Your stroke connects! This could be serious!
-
-# Combat: thief (12 attempts)
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-
-## Clang! Crash! The thief parries.
-
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
-> kill thief with axe
+# Treasure Room                               Score: 313      Moves: 394
+#   Dropped.
 > drop axe
-# Pick up the canary
+# Treasure Room                               Score: 319      Moves: 395
+#   Taken.
 > take canary
-# Pick up the chalice
+# Treasure Room                               Score: 329      Moves: 396
+#   Taken.
 > take chalice
-# Pick up the egg
+# Treasure Room                               Score: 329      Moves: 397
+#   Taken.
 > take egg
-# Pick up the painting
+# Treasure Room                               Score: 329      Moves: 398 You
+#   can't see any painting here!
 > take painting
+# Cyclops Room                                Score: 329      Moves: 399
+#   Cyclops Room
 > d
+# Strange Passage                             Score: 329      Moves: 400
+#   Strange Passage
 > e
-
-## Living Room
-
+# Living Room                                 Score: 329      Moves: 401
+#   Living Room Your collection of treasures consists of: A beautiful
+#   jeweled...
 > e
+# Living Room                                 Score: 329      Moves: 402 The
+#   brass lantern is now off.
 > turn off lantern
 # Store the coins in the case
+# Living Room                                 Score: 334      Moves: 403 Done.
 > put coins in case
 # Store the chalice in the case
+# Living Room                                 Score: 339      Moves: 404 Done.
 > put chalice in case
 # Store the painting in the case
+# You don't have the painting.
 > put painting in case
+# Kitchen                                     Score: 339      Moves: 405
+#   Kitchen
 > e
+# Behind House                                Score: 339      Moves: 406
+#   Behind House
 > e
+# North of House                              Score: 339      Moves: 407 North
+#   of House
 > nw
+# Forest Path                                 Score: 339      Moves: 408
+#   Forest Path
 > n
+# Forest Path                                 Score: 339      Moves: 409 The
+#   canary chirps, slightly off-key, an aria from a forgotten opera.
 > wind canary
-# Pick up the bauble
+# Forest Path                                 Score: 340      Moves: 410
+#   Taken.
 > take bauble
+# North of House                              Score: 340      Moves: 411 North
+#   of House
 > s
+# Behind House                                Score: 340      Moves: 412
+#   Behind House
 > e
+# Kitchen                                     Score: 340      Moves: 413
+#   Kitchen
 > w
+# Living Room                                 Score: 340      Moves: 414
+#   Living Room Your collection of treasures consists of: A chalice A leather
+#   bag...
 > w
 # Store the egg in the case
+# Living Room                                 Score: 345      Moves: 415 Done.
 > put egg in case
 # Store the canary in the case
+# Living Room                                 Score: 349      Moves: 416 Done.
 > put canary in case
-
-## Done.
-
 # Store the bauble in the case
+# Living Room                                 Score: 350      Moves: 417 Done.
 > put bauble in case
-
-## Stage 6
 
 ## Living Room
 
 > look
+
+# Living Room                                 Score: 350      Moves: 419
+#   (Taken) The map shows a forest with three clearings.
 > take map
+# Kitchen                                     Score: 350      Moves: 420
+#   Kitchen
 > read map
+# Behind House                                Score: 350      Moves: 421
+#   Behind House
 > e
+# North of House                              Score: 350      Moves: 422 North
+#   of House
 > e
+# North of House                              Score: 350      Moves: 423 The
+#   windows are all boarded.
 > nw
-
-## West of House
-
+# West of House                               Score: 350      Moves: 424 West
+#   of House You are standing in an open field west of a white house, with
+#   a...
 > s
-
-## Stone Barrow
-
+# Stone Barrow                                Score: 350      Moves: 425 Stone
+#   Barrow You are standing in front of a massive barrow of stone.
 > sw
 
 ## Inside the Barrow
 
 > sw
+
+# position, or end this session of the game? (Type RESTART, RESTORE, or QUIT):
 > enter barrow
